@@ -1,0 +1,650 @@
+{
+	"info": {
+		"_postman_id": "1e646ec6-e613-4702-adf1-fafeee0d5fe6",
+		"name": "Pharma",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28610000"
+	},
+	"item": [
+		{
+			"name": "Medicamento",
+			"item": [
+				{
+					"name": "GET Medicamentos",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/medicamento",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"medicamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET MedicamentoById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/medicamento/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"medicamento",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Medicamentos",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Omeprazol\",\r\n  \"descricao\": \"Inibidor da bomba de prótons para tratamento de problemas gástricos\",\r\n  \"preco\": 35.90,\r\n  \"quantidadeEmEstoque\": 100,\r\n  \"composicoes\": [\r\n    {\r\n      \"materiaPrimaId\": 1,\r\n      \"quantidadeUtilizada\": 10\r\n    },\r\n    {\r\n      \"materiaPrimaId\": 2,\r\n      \"quantidadeUtilizada\": 5\r\n    }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/medicamento",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"medicamento"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Medicamentos",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"Dipirona\",   \r\n  \"preco\": 12.00,\r\n  \"quantidadeEmEstoque\": 10  \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/medicamento/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"medicamento",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Medicamentos",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/medicamento/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"medicamento",
+								"4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clientes",
+			"item": [
+				{
+					"name": "GET Clientes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET ClienteById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/cliente/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"cliente",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Cliente",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"João da Silva\",\r\n  \"cpf\": \"450.456.789-01\",\r\n  \"endereco\": \"Rua das Flores, 123, Bairro Jardim\",\r\n  \"telefone\": \"(11) 98765-4321\",\r\n  \"email\": \"joao.silva@email.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/cliente",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Cliente",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nome\": \"João da Silva Editado\",\r\n  \"cpf\": \"12545678901\",\r\n  \"endereco\": \"Avenida das Flores, 123, Bairro Jardim\",\r\n  \"telefone\": \"(13) 98765-4321\",\r\n  \"email\": \"joao.silva@teste.com\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/cliente/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"cliente",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Cliente",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/cliente/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"cliente",
+								"6"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MateriaPrima",
+			"item": [
+				{
+					"name": "GET MateriasPrimas",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/materiaprima",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"materiaprima"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET MateriaPrimaById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/materiaprima/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"materiaprima",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST MateriaPrima",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Dipirona Monoidratada\",\r\n    \"descricao\": \"Analgésico e antipirético utilizado na fabricação de medicamentos para dor e febre\",\r\n    \"quantidadeEmEstoque\": 3000,\r\n    \"dataValidade\": \"2027-06-15\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/materiaprima",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"materiaprima"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT MateriaPrima",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Dipirona Monoidratada Editada\",\r\n    \"descricao\": \"Analgésico e antipirético utilizado na fabricação de medicamentos para dor e febre\",\r\n    \"quantidadeEmEstoque\": 2000,\r\n    \"dataValidade\": \"2025-12-31\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/materiaprima/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"materiaprima",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE MateriaPrima",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/pedido/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"pedido",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Pedido",
+			"item": [
+				{
+					"name": "GET Pedido",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/pedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"pedido"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET PedidoById",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:5053/api/pedido/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"pedido",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Pedido",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"clienteId\": 1,    \r\n    \"valorTotal\": 150.75,\r\n    \"itensPedido\": [\r\n        {\r\n            \"medicamentoId\": 2,\r\n            \"quantidade\": 3,\r\n            \"precoUnitario\": 50.25\r\n        },\r\n        {\r\n            \"medicamentoId\": 5,\r\n            \"quantidade\": 1,\r\n            \"precoUnitario\": 75.00\r\n        }\r\n    ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/pedido",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"pedido"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Pedido",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Dipirona Monoidratada\",\r\n    \"descricao\": \"Analgésico e antipirético utilizado na fabricação de medicamentos para dor e febre\",\r\n    \"quantidadeEmEstoque\": 3000,\r\n    \"dataValidade\": \"2027-06-15\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/pedido/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"pedido",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE Pedido",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:5053/api/cliente/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5053",
+							"path": [
+								"api",
+								"cliente",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -325,3 +325,4 @@ C:\Users\byanca.melo\Downloads\Pharma\PharmaApp\obj\Debug\net9.0\PharmaApp.genru
 C:\Users\byanca.melo\Downloads\Pharma\PharmaApp\obj\Debug\net9.0\ref\PharmaApp.dll
 C:\Users\byanca.melo\Downloads\Pharma\PharmaApp\obj\Debug\net9.0\PharmaApp.RazorAssemblyInfo.cache
 C:\Users\byanca.melo\Downloads\Pharma\PharmaApp\obj\Debug\net9.0\PharmaApp.RazorAssemblyInfo.cs
+C:\Users\byanca.melo\Downloads\Pharma\PharmaApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
