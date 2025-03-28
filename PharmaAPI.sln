@@ -15,6 +15,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaAPI.Business", "Pharm
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PharmaApp", "PharmaApp\PharmaApp.csproj", "{8159F5EF-951A-46C8-BCFF-90ED5551C026}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{26CDBEC7-E766-444F-9820-941CAF51DC01}"
+	ProjectSection(SolutionItems) = preProject
+		..\Bk\Pharma.postman_collection.json = ..\Bk\Pharma.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Banco", "Banco", "{A468D69F-2CCE-47D5-8C01-7DB8441EA408}"
+	ProjectSection(SolutionItems) = preProject
+		..\Bk\banco\banco.md = ..\Bk\banco\banco.md
+		..\Bk\banco\create_pharma_db.sql = ..\Bk\banco\create_pharma_db.sql
+		..\Bk\banco\databae_pharma.png = ..\Bk\banco\databae_pharma.png
+		..\Bk\banco\insert - pharma_db.sql = ..\Bk\banco\insert - pharma_db.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +61,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A468D69F-2CCE-47D5-8C01-7DB8441EA408} = {26CDBEC7-E766-444F-9820-941CAF51DC01}
 	EndGlobalSection
 EndGlobal
