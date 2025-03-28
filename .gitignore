@@ -1,3 +1,8 @@
+bin/
+obj/
 .vs/
-*.vsix
-.vscode/
+*.user
+*.suo
+*.log
+*.tmp
+*.ide
