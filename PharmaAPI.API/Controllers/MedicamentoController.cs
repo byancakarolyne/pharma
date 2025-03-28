@@ -52,7 +52,8 @@ public class MedicamentoController : ControllerBase
         {
             return NotFound(new { message = "Medicamento não encontrado." });
         }
-        return Ok();
+
+        return Ok("Registro atualizado com sucesso!");
     }
 
 
@@ -64,6 +65,7 @@ public class MedicamentoController : ControllerBase
         {
             return NotFound(new { message = "Medicamento não encontrado." });
         }
-        return Ok();
+
+        return Ok("Remoção realizada com sucesso!");
     }
 }

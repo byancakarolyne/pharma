@@ -1,7 +1,4 @@
-﻿using Azure.Core;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using PharmaAPI.Business.Business;
+﻿using Microsoft.AspNetCore.Mvc;
 using PharmaAPI.Business.Business.Interface;
 
 namespace PharmaAPI.Controllers
@@ -68,7 +65,7 @@ namespace PharmaAPI.Controllers
             {
                 return NotFound(new { message = "Cliente não encontrado." });
             }
-            return Ok();
+            return Ok("Remoção realizada com sucesso!");
         }
     }
 }
