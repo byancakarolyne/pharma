@@ -44,6 +44,55 @@ A lógica de backend é implementada em C# e inclui a definição de DTOs (Data 
 4. A API processa os dados e retorna uma resposta indicando o sucesso ou falha da operação.
 5. A interface do usuário exibe uma mensagem apropriada com base na resposta da API.
 
----
+
+## Rodando a API e o Frontend Localmente
+
+Para rodar o **PharmaApp** localmente, você precisará executar tanto a **API** quanto o **Frontend**. A seguir, as instruções detalhadas para rodar ambos a partir do terminal.
+
+ - Rodando a API
+
+A API do PharmaApp é desenvolvida utilizando .NET Core. Siga as instruções abaixo para rodá-la localmente:
+
+1. Abra o terminal (pode ser o Command Prompt, PowerShell ou o Terminal do Visual Studio Code).
+
+2. Navegue até o diretório da API:
+   cd caminho/para/o/diretorio/da/api
+
+3. Restaure as dependências do projeto (se necessário):
+   dotnet restore
+
+4. Execute a API localmente:
+   dotnet run
+
+Isso irá iniciar a API em um servidor local. Por padrão, a API estará acessível em http://localhost:5053
+
+- Rodando o Frontend
+
+O Frontend do PharmaApp é uma aplicação Blazor. Para rodá-la localmente, siga os seguintes passos:
+
+1. Abra outro terminal.
+
+2. Navegue até o diretório do frontend:
+   cd caminho/para/o/diretorio/do/frontend
+
+3. Restaure as dependências do Blazor:
+   dotnet restore
+
+4. Execute o frontend:
+   dotnet run
+
+Isso iniciará a aplicação Blazor em https://localhost:44330 no navegador, permitindo que você interaja com a interface do usuário do PharmaApp.
+
+Fluxo Completo
+--------------
+1. Rodar a API: Abra o terminal no diretório da API e execute o comando dotnet run.
+2. Rodar o Frontend: Abra outro terminal no diretório do frontend e execute dotnet run.
+3. Acesse o Frontend em https://localhost:44330 no seu navegador e comece a interagir com a aplicação.
+
+Dicas
+-----
+- Caso precise interromper a execução, pressione Ctrl + C no terminal onde a aplicação está rodando.
+- Se houver conflitos de porta, você pode alterar a porta de execução da API ou do frontend nos arquivos de configuração do projeto.
+
 
 Esta documentação fornece uma visão geral das funcionalidades e do fluxo de trabalho da solução **PharmaApp**, tanto na parte do frontend desenvolvida com Blazor quanto na parte do backend desenvolvida em C#.
