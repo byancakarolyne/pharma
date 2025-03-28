@@ -1,8 +1,24 @@
+# .NET build output
 bin/
 obj/
-.vs/
+
+# User-specific files
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Windows)
+*.swp
+
+# ASP.NET temporary files
+.vs/
+.vscode/
+
+# Log files
 *.log
+
+# Temp files
 *.tmp
-*.ide
+*.temp
+*.bak
