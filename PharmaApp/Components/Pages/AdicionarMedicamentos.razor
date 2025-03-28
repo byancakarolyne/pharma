@@ -1,0 +1,94 @@
+﻿@page "/adicionar-medicamentos"
+@using PharmaApp.Services
+@inject ApiService ApiService
+
+<h3>Adicionar Medicamento</h3>
+
+<EditForm Model="novoMedicamento" OnValidSubmit="AdicionarMedicamento" novalidate>
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <!-- Nome do Medicamento -->
+    <div class="form-group">
+        <label for="nome">Nome</label>
+        <InputText id="nome" class="form-control" @bind-Value="novoMedicamento.Nome" />
+    </div>
+
+    <!-- Descrição -->
+    <div class="form-group">
+        <label for="descricao">Descrição</label>
+        <InputText id="descricao" class="form-control" @bind-Value="novoMedicamento.Descricao" />
+    </div>
+
+    <!-- Preço -->
+    <div class="form-group">
+        <label for="preco">Preço</label>
+        <InputNumber id="preco" class="form-control" @bind-Value="novoMedicamento.Preco" />
+    </div>
+
+    <!-- Quantidade em Estoque -->
+    <div class="form-group">
+        <label for="quantidadeEmEstoque">Quantidade em Estoque</label>
+        <InputNumber id="quantidadeEmEstoque" class="form-control" @bind-Value="novoMedicamento.QuantidadeEmEstoque" />
+    </div>
+
+    <!-- Composições (MateriaPrimaId e QuantidadeUtilizada) -->
+    <h4>Composições</h4>
+    @for (int i = 0; i < novoMedicamento.Composicoes.Count; i++)
+    {
+        <div class="form-group">
+            <label for="materiaPrimaId">Materia Prima Id</label>
+            <InputNumber class="form-control" @bind-Value="novoMedicamento.Composicoes[i].MateriaPrimaId" />
+
+            <label for="quantidadeUtilizada">Quantidade Utilizada</label>
+            <InputNumber class="form-control" @bind-Value="novoMedicamento.Composicoes[i].QuantidadeUtilizada" />
+
+            <button type="button" class="btn btn-danger" @onclick="() => RemoverComposicao(i)">Remover</button>
+        </div>
+    }
+
+    <button type="button" class="btn btn-success" @onclick="AdicionarComposicao">Adicionar Composição</button>
+
+    <!-- Submissão do Formulário -->
+    <button type="submit" class="btn btn-primary">Adicionar Medicamento</button>
+</EditForm>
+
+@code {
+    private MedicamentoDto novoMedicamento = new MedicamentoDto
+        {
+            Composicoes = new List<ComposicaoDto>()
+        };
+
+    // Função para adicionar uma composição ao medicamento
+    private void AdicionarComposicao()
+    {
+        novoMedicamento.Composicoes.Add(new ComposicaoDto());
+    }
+
+    // Função para remover uma composição
+    private void RemoverComposicao(int index)
+    {
+        novoMedicamento.Composicoes.RemoveAt(index);
+    }
+
+    // Função para enviar os dados para a API
+    private async Task AdicionarMedicamento()
+    {
+        if (novoMedicamento != null)
+        {
+            try
+            {
+                var resposta = await ApiService.AdicionarMedicamentoAsync(novoMedicamento);
+                if (resposta != null)
+                {
+                    // Lógica para exibir uma mensagem de sucesso ou redirecionar o usuário
+                    Console.WriteLine("Medicamento adicionado com sucesso!");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Erro ao adicionar medicamento: {ex.Message}");
+            }
+        }
+    }
+}

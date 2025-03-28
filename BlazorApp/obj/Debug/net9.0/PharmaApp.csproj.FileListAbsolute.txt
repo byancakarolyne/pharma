@@ -1,0 +1,8 @@
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.csproj.AssemblyReference.cache
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.AssemblyInfoInputs.cache
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.AssemblyInfo.cs
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.csproj.CoreCompileInputs.cache
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\byanca.melo\Downloads\Pharma\BlazorApp\obj\Debug\net9.0\PharmaApp.sourcelink.json

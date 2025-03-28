@@ -1,0 +1,16 @@
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\bin\Debug\net9.0\PharmaAPI.Application.deps.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\bin\Debug\net9.0\PharmaAPI.Application.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\bin\Debug\net9.0\PharmaAPI.Application.pdb
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\bin\Debug\net9.0\PharmaAPI.Domain.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\bin\Debug\net9.0\PharmaAPI.Domain.pdb
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.csproj.AssemblyReference.cache
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.AssemblyInfoInputs.cache
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.AssemblyInfo.cs
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAP.8FFB394E.Up2Date
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\refint\PharmaAPI.Application.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.pdb
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\ref\PharmaAPI.Application.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Application\obj\Debug\net9.0\PharmaAPI.Application.sourcelink.json

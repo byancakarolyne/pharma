@@ -1,0 +1,12 @@
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\bin\Debug\net9.0\PharmaAPI.Domain.deps.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\bin\Debug\net9.0\PharmaAPI.Domain.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\bin\Debug\net9.0\PharmaAPI.Domain.pdb
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\PharmaAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\PharmaAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\PharmaAPI.Domain.AssemblyInfo.cs
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\PharmaAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\PharmaAPI.Domain.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\refint\PharmaAPI.Domain.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\PharmaAPI.Domain.pdb
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\ref\PharmaAPI.Domain.dll
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.Domain\obj\Debug\net9.0\PharmaAPI.Domain.sourcelink.json
