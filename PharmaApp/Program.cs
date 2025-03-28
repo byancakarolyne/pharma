@@ -3,9 +3,11 @@ using PharmaApp.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddRazorPages();  
+
 builder.Services.AddScoped<ApiService>();
 
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("https://localhost:5053") });  // URL da sua API
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5053/") });
 
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
@@ -13,8 +15,9 @@ builder.Services.AddRazorComponents()
 var app = builder.Build();
 
 app.UseRouting();
-app.MapBlazorHub();  
-//app.MapFallbackToPage("/_Host");
+app.MapBlazorHub();
+
+app.MapFallbackToPage("/_Host");  
 
 if (!app.Environment.IsDevelopment())
 {
@@ -23,8 +26,6 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-
 app.UseAntiforgery();
 
 app.MapStaticAssets();

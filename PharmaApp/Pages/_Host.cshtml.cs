@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace PharmaApp.Components.Pages
+namespace PharmaApp.Pages
 {
     public class _HostModel : PageModel
     {

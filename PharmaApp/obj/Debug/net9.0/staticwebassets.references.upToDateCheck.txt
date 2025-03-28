@@ -27,3 +27,12 @@ C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebas
 C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\byanca.melo\Downloads\Pharma\PharmaAPI.API\obj\Debug\net9.0\staticwebassets.build.json
